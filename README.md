@@ -11,7 +11,7 @@ DM for a PRO version: faster snipes, mev protect, better api's for socket listen
 ## Setup
 
 1. **Environment Variables**:
-   - Rename `env.template` to `.env`.
+   - Rename `env.template` to `.env`. If you face issues with the env file,just set the `CUSTOM_RPC_URL & PRIVATE_KEY` in the json file manually and run
    - Ensure you install node js on your computer + npm (if you have the node modules folder, then npm is optional)
    - Open `.env` and fill in your `RPC_ENDPOINT` and `PRIVATE_KEY`.
 
