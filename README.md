@@ -1,7 +1,8 @@
 # PUMP SNIPER & CRACKER
 
 ## Description
-Solana tool to buy the latest coins on Pump.Fun as well as the King of The Hill coins. Set your intended profit % to automatically sell once reached. Custom RPC support. Simply add your private key, the RPC you wish to use, and you're ready to go.
+This version: Free Tier: Snipe coins, fast buy koth, set buy sell percentage, check socials mint freeze auth, custom rpc endpoint and priv key management local (no trusting random servers). 
+DM for a PRO version: faster snipes, mev protect, better api's for socket listening, copy trade faster, buy from multiple wallets and more.
 
 ## Prerequisites
 - Ensure you have the necessary permissions to execute files on your operating system.
@@ -9,7 +10,8 @@ Solana tool to buy the latest coins on Pump.Fun as well as the King of The Hill 
 ## Setup
 
 1. **Environment Variables**:
-   - Rename `.env.template` to `.env`.
+   - Rename `env.template` to `.env`.
+   - Ensure you install node js on your computer + npm (if you have the node modules folder, then npm is optional)
    - Open `.env` and fill in your `RPC_ENDPOINT` and `PRIVATE_KEY`.
 
      ```env
@@ -21,16 +23,10 @@ Solana tool to buy the latest coins on Pump.Fun as well as the King of The Hill 
    - Ensure `settings.json` and `buyHistory.json` are in the same directory as the executable.
 
 ## Running the Tool
-
-- For Windows:
-  1. Open a Command Prompt.
-  2. Navigate to the directory containing the executable.
-  3. Run the executable: `pump_fun.exe`
-
-- For macOS/Linux:
-  1. Open a Terminal.
-  2. Navigate to the directory containing the executable.
-  3. Run the executable: `./pump_fun`
+- `npm install` in the directory to get the modules and dependencies
+- `npm start` to start the tool
+Alternatively you can run:
+- `node pump_fun.js` to run the tool as well but you will need the node modules
 
 ## Notes
 - Ensure your `.env` file is kept secure and not shared with anyone.
