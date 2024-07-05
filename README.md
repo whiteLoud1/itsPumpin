@@ -25,8 +25,7 @@ DM for a PRO version: faster snipes, mev protect, better api's for socket listen
 ## Running the Tool
 - `npm install` in the directory to get the modules and dependencies
 - `npm start` to start the tool
-Alternatively you can run:
-- `node pump_fun.js` to run the tool as well but you will need the node modules
+Alternatively you can run: `node pump_fun.js` to run the tool as well but you will need the node modules
 
 ## Notes
 - Ensure your `.env` file is kept secure and not shared with anyone.
