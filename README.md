@@ -6,6 +6,7 @@ DM for a PRO version: faster snipes, mev protect, better api's for socket listen
 
 ## Prerequisites
 - Ensure you have the necessary permissions to execute files on your operating system.
+- Install Node Js and npm for your machine
 
 ## Setup
 
