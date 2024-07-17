@@ -3,6 +3,8 @@
 ## Description
 This version: Free Tier: Snipe coins, fast buy koth, set buy sell percentage, check socials mint freeze auth, custom rpc endpoint and priv key management local (no trusting random servers). 
 DM for a PRO version: faster snipes, mev protect, better api's for socket listening, copy trade faster, buy from multiple wallets and more.
+
+## CONTACT ME FOR PRO VERSION!
 Reach out to me: @lfgyeettrading on telegram. The PRO version does rug checks, uses node js packages for sub 100ms swaps that is a swap time of 0.01s - faster than trojan. 
 Pro version does a lot of things - tracks alpha wallets and auto buys sells, updates in telegram etc. 
 
